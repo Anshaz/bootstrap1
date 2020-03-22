@@ -43,3 +43,16 @@ body{
 
     background-color:#512da8;
 }
+input[type="radio"] {
+    margin: 0px 10px 0px 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.card-body{
+    color:black;
+    font-weight:500;
+  
+
+}
