@@ -1,6 +1,4 @@
-
-
-    $("#carouselButton").click(function(){
+$("#carouselButton").click(function(){
                 if ($("#carouselButton").children("span").hasClass('fa-pause')) {
         $("#mycarousel").carousel('pause');
 $("#carouselButton").children("span").removeClass('fa-pause');
@@ -14,10 +12,7 @@ $("#carouselButton").children("span").addClass('fa-pause');
 });
 
 
-
-
-
-        $(document).ready(function () {
+ $(document).ready(function () {
             $('#login').click(function () {
                 $('#loginModal').modal();
             });
@@ -35,11 +30,7 @@ $("#carouselButton").children("span").addClass('fa-pause');
     });
 
 
-
-
-
-
-        $(document).ready(function () {
+$(document).ready(function () {
             $('#reservemodal').click(function () {
                 $('#reservemodal1').modal();
             });
