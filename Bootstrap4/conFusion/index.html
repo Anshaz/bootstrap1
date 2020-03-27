@@ -368,82 +368,13 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-    <script>
-
-        $(document).ready(function () {
-            $('#mycarousel').carousel({ interval: 1000 });
-            $("#carouselButton").click(function () {
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')) {
-                    $("#mycarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');
-                }
-            });
-        });
-
-    </script>
-
-
-    <!Javascript code to trigger and hide login modal>
-
-
-    <script>
-        $(document).ready(function () {
-            $('#login').click(function () {
-                $('#loginModal').modal();
-            });
-        });
-
-        $(document).ready(function () {
-            $('#dismiss').click(function () {
-                $('#loginModal').modal('hide');
-            });
-        });
-        $(document).ready(function () {
-            $('#dismiss1').click(function () {
-                $('#loginModal').modal('hide');
-            });
-        });
-
-
-    </script>
-
-    <!Javascript code to trigger and hide Reserve modal>
-
-    <script>
-        $(document).ready(function () {
-            $('#reservemodal').click(function () {
-                $('#reservemodal1').modal();
-            });
-        });
-
-        $(document).ready(function () {
-            $('#hideoncancel').click(function () {
-                $('#reservemodal1').modal('hide');
-            });
-        });
-        $(document).ready(function () {
-            $('#reservehide1').click(function () {
-                $('#reservemodal1').modal('hide');
-            });
-        });
-
-
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#toggleme").click(function () {
-                $(this).button('toggle');
-            });
-        });
-    </script>
+    
 
 </body>
+
+
+
 
 </html>
