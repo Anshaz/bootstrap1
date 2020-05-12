@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\img",
+    "\\js"
   ],
+  "SelectedNode": "\\package-lock.json",
   "PreviewInSolutionExplorer": false
 }
